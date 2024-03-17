@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0px;
 	padding: 0px;
 }
@@ -9,6 +9,7 @@ header, nav, section, article, footer {
 
 body {
 	text-align: center;
+	width: 100%;
 }
 
 #outer_div {
@@ -36,6 +37,8 @@ body {
 }
 
 #main_section {
+	display: flex;
+	flex-direction: column;
 	float: left;
 	width: 660px;
 	margin: 30px;
