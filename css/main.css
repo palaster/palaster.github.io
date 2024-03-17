@@ -3,6 +3,11 @@
 	padding: 0px;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 header, nav, section, article, footer {
 	display: block;
 }
@@ -14,15 +19,13 @@ body {
 
 #outer_div {
 	border: 1px solid black;
-	width: 1000px;
-	margin: 20px auto;
+	max-width: auto;
 	text-align: left;
 }
 
 #main_header {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	padding: 20px;
 }
 
 #main_nav {
@@ -39,9 +42,6 @@ body {
 #main_section {
 	display: flex;
 	flex-direction: column;
-	float: left;
-	width: 660px;
-	margin: 30px;
 }
 
 #main_footer {
@@ -54,7 +54,6 @@ body {
 article {
 	border: 1px solid black;
 	padding: 20px;
-	margin-bottom: 15px;
 }
 
 article header {
